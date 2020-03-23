@@ -1,6 +1,8 @@
 ## Hindmarsh and Rose Model with adaptation and timescale factors phi and eps
 
-## all parameters are taken fron HR paper, 1984.
+## all parameters are taken from Hindmarsh and Rose, 1984 
+## Proc R Soc Lond B Biol Sci, 221:87-102. 
+## https://pubmed.ncbi.nlm.nih.gov/6144106
 
 par I=1
 par z=0
