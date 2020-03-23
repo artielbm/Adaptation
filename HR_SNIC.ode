@@ -8,7 +8,7 @@
 ## all parameters are taken fron HR paper, 1984.
 
 par I0=-10.0, I1=5.0, tstart=2000
-par w=-1.11, s=22
+par xbar=-1.11, s=22
 par a=1, b=3.5, c=1, d=5.5, eps=0.0005, phi=0.1
 
 I = I0 + heav(t - tstart)*(I1 - I0)
@@ -26,7 +26,7 @@ init z = -10.0628
  
 x' = y - a*x*x*x + b*x*x + I - z
 y' = phi*(c - d*x*x - y)
-z' = eps*(s*(x - w) - z)
+z' = eps*(s*(x - xbar) - z)
 
 ## Numerical and plotting parameters
 
