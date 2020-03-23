@@ -9,7 +9,7 @@ The 3D Hindmarsh-Rose model with a SNIC and adaptation, corresponding to Figs. 3
 
 The 2D Hindmarsh-Rose model with a Hopf bifurcation but no adaptation, used to make Figs. 8 and 9, is defined in [HR_Hopf_2D.ode](./HR_Hopf_2D.ode).
 
-The 3D Hindmarsh-Rose model with a Hopf bifurcation and adaption, corresponding to Fig. 10 is defined in [HR_Hopf.ode](./HF_Hopf.ode).
+The 3D Hindmarsh-Rose model with a Hopf bifurcation and adaption, corresponding to Fig. 10 is defined in [HR_Hopf.ode](./HR_Hopf.ode).
 
 The Morris-Lecar model with adaptation is defined in [ML.ode](./ML.ode).
 
