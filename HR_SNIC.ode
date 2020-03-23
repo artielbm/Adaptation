@@ -10,6 +10,7 @@
 par I0=-10.0, I1=5.0, tstart=2000
 par xbar=-1.11, s=22
 par a=1, b=3.5, c=1, d=5.5, eps=0.0005, phi=0.1
+par theta=0
 
 I = I0 + heav(t - tstart)*(I1 - I0)
 
@@ -24,7 +25,7 @@ init z = -10.0628
 ## time is in ms, so multiply frequency by 1000 for Hz
 ## x, y, and z non-dimensional
  
-x' = y - a*x*x*x + b*x*x + I - z
+x' = y - a*(x - theta)*(x - theta)*(x - theta) + b*x*x + I - z
 y' = phi*(c - d*x*x - y)
 z' = eps*(s*(x - xbar) - z)
 
